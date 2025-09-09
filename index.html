@@ -6,13 +6,30 @@
   <title>Weather Dashboard</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="default">
   <div class="app-container">
     <header>
-      <h1>🌤 Weather Dashboard</h1>
+      <div class="header-top">
+        <h1>🌤 Weather Dashboard</h1>
+
+        <!-- Dark mode toggle -->
+        <button id="themeToggle" class="theme-toggle" title="Toggle Dark Mode">🌙</button>
+      </div>
+
       <div class="search-bar">
+        <!-- Home button -->
+        <button id="homeBtn" class="home-btn" title="Go to Home">🏠</button>
+
         <input type="text" id="cityInput" placeholder="Enter city name..." aria-label="City name" />
         <button id="searchBtn">Search</button>
+
+        <!-- Unit switcher -->
+        <div class="unit-toggle">
+          <label>
+            <input type="checkbox" id="unitToggle" />
+            <span>°C / °F</span>
+          </label>
+        </div>
       </div>
     </header>
 
@@ -20,7 +37,19 @@
       <div id="loading" class="loading hidden">Loading weather...</div>
       <div id="error" class="error hidden"></div>
 
+      <!-- Current Weather -->
       <section id="weatherContainer" class="weather-container"></section>
+
+      <!-- Extra Details -->
+      <section id="extraDetails" class="extra-details hidden">
+        <h3>More Info</h3>
+        <p id="feelsLike"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+        <p id="pressure"></p>
+      </section>
+
+      <!-- Forecast -->
       <section id="forecastContainer" class="forecast-container"></section>
     </main>
 
@@ -28,6 +57,9 @@
       <p>Elevoo Pathways Internship | Made with ❤️ by Shayan</p>
     </footer>
   </div>
+
+  <!-- Container for dynamic weather effects -->
+  <div id="weatherEffects"></div>
 
   <script src="script.js"></script>
 </body>
