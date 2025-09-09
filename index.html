@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>🌤 Weather Dashboard</h1>
+      <div class="search-bar">
+        <input type="text" id="cityInput" placeholder="Enter city name..." aria-label="City name" />
+        <button id="searchBtn">Search</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="loading" class="loading hidden">Loading weather...</div>
+      <div id="error" class="error hidden"></div>
+
+      <section id="weatherContainer" class="weather-container"></section>
+      <section id="forecastContainer" class="forecast-container"></section>
+    </main>
+
+    <footer>
+      <p>Elevoo Pathways Internship | Made with ❤️ by Shayan</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
