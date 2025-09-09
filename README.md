@@ -28,7 +28,7 @@ Built with **HTML, CSS, and JavaScript** (Fetch API), this project focuses on **
 
 ## 🚀 Test It Here  
 
-[![Vercel](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://weather-dashboard-git-main-shayan-qazmis-projects.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://weather-dashboard-eight-phi.vercel.app//)
 
 
 
