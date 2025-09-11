@@ -24,7 +24,7 @@ Built with **HTML, CSS, and JavaScript** (Fetch API), this project focuses on **
 - **CSS3** – Modern UI, responsive design, glassmorphism, and weather animations.  
 - **JavaScript (ES6+)** – API integration, async/await, DOM manipulation.  
 - **OpenWeatherMap API** – Real-time weather & forecast data.  
-
+- **Vercel** – Deployed on Vercel.
 
 ## 🚀 Test It Here  
 
