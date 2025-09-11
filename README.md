@@ -73,11 +73,8 @@ Deploy with one click 🚀.
 📌 Future Improvements
 
 🔔 Weather alerts & notifications.
-
 🌎 Multi-language support.
-
 📊 Detailed hourly forecasts.
-
 📈 Historical weather trends.
 
 🙌 Acknowledgements
